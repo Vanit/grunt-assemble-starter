@@ -1,7 +1,7 @@
 {
   "name": "grunt-assemble-starter",
-  "description": "The best project ever..",
-  "version": "0.1.0",
+  "description": "Grunt assemble starter boilerplate with bourbon and neat",
+  "version": "0.2.0",
   "homepage": "https://github.com/eckotam/grunt-assemble-starter",
   "author": {
     "name": "Ecko Tam",

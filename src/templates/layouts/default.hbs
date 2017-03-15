@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>{{title}} | {{site.title}}</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{title}} | {{site.title}}</title>
+    <meta name="keywords" content="{{keywords}}">
+    <meta name="description" content="{{description}}">
 
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="{{assets}}/css/bootstrap.min.css">
-
-    <!-- Custom styles for this template -->
+    <!-- Styles -->
     <link href="{{assets}}/css/app.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -20,17 +19,11 @@
   </head>
   <body>
 
-    {{> navbar-fixed-top }}
-
-    <div class="container theme-showcase" role="main">
-
+    <main role="main">
       {{> body }}
-
-    </div>
+		</main>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="{{assets}}/js/bootstrap.min.js"></script>
   </body>
 </html>

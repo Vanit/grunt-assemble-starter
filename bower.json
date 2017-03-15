@@ -1,9 +1,10 @@
 {
   "name": "grunt-assemble-starter",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "dependencies": {
-    "bootstrap": "~3.2.0",
-    "bourbon": "^4.2.7"
+    "bourbon": "4.2.7",
+    "neat": "2.0.0",
+    "normalize-scss": "^3.0.3"
   },
   "private": true
 }

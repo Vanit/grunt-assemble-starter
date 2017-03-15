@@ -71,11 +71,41 @@ module.exports = function(grunt) {
     },
 
     copy: {
-      bootstrap: {
+      javascripts: {
         expand: true,
-        cwd: 'bower_components/bootstrap/dist/',
+        cwd: '<%= config.src %>/templates/assets/js/',
         src: '**',
-        dest: '<%= config.dist %>/assets/'
+        dest: '<%= config.dist %>/assets/js/'
+      },
+      images: {
+        expand: true,
+        cwd: '<%= config.src %>/templates/assets/img/',
+        src: '**',
+        dest: '<%= config.dist %>/assets/img/'
+      },
+      favicon: {
+          expand: true,
+          cwd: '<%= config.src %>/templates/assets/',
+          src: 'favicon.ico',
+          dest: '<%= config.dist %>/'
+      },
+      normalize: {
+        expand: true,
+        cwd: 'bower_components/normalize-scss/',
+        src: '_normalize.scss',
+        dest: '<%= config.src %>/templates/scss/vendors/normalize'
+      },
+      bourbon: {
+        expand: true,
+        cwd: 'bower_components/bourbon/app/assets/stylesheets/',
+        src: '**',
+        dest: '<%= config.src %>/templates/scss/vendors/bourbon/'
+      },
+      neat: {
+        expand: true,
+        cwd: 'bower_components/neat/core/',
+        src: '**',
+        dest: '<%= config.src %>/templates/scss/vendors/neat/'
       }
     },
 

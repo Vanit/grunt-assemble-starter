@@ -1,4 +1,6 @@
-.sass-cache
+.DS_Store
+.sass-cache/
+.vscode/
 bower_components/
 node_modules/
 dist/
