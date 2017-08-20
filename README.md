@@ -31,5 +31,6 @@ $ grunt server
 ```
 
 ## Release History
+ * 2017-08-21	v0.3.0		Updated assemble version, added in assemble and handlebar helpers
  * 2017-03-16	v0.2.0		Removed bootstrap. Replaced with Bourbon and Neat. Cleaner README.
  * 2016-08-30   v0.1.0    	Initial Commit
